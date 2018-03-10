@@ -15,6 +15,8 @@ Run `npm run docker-build` to build the project. This will trigger a docker buil
 
 Run `npm run docker-run` to run the previously created Docker image as a Docker container.  This will run the container on port 80.  Navigate to localhost in your browser and you will see your app!
 
+# Standard Angular CLI commands
+
 
 ## Development server
 
