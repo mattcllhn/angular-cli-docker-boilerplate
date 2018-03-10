@@ -1,6 +1,6 @@
 # angular-docker-boilerplate
 
-This repository is meant to demonstrate the basic boilerplate required to create and Angular CLI based Docker container.  This is by no means meant to represent enterprise grade development flow, but can however be used as a starting point.  Somethings that could be added:
+This repository is meant to demonstrate the basic boilerplate required to create an Angular CLI based Docker container.  This is by no means meant to represent enterprise grade development flow, but can however be used as a starting point.  Somethings that could be added:
 
 1. Linting steps
 2. Multi-stage docker build
@@ -11,7 +11,7 @@ This repository is meant to demonstrate the basic boilerplate required to create
 
 Run `npm run docker-build` to build the project. This will trigger a docker build which will create a Docker image with a tag angular-docker-boilerplate:dev .  This can be viewed via the `docker image -l` command 
 
-##Docker Run 
+## Docker Run 
 
 Run `npm run docker-run` to run the previously created Docker image as a Docker container.  This will run the container on port 80.  Navigate to localhost in your browser and you will see your app!
 
