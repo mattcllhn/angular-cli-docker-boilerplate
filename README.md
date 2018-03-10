@@ -1,7 +1,11 @@
 # angular-docker-boilerplate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+This repository is meant to demonstrate the basic boilerplate required to create and Angular CLI based Docker container.  This is by no means meant to represent enterprise grade development flow, but can however be used as a starting point.  Somethings that could be added:
 
+1. Linting steps
+2. Multi-stage docker build
+3. CI/CD boilerplate
+4. etc
 
 ## Docker Build
 
